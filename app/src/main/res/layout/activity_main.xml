@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mbreath.activityrecognitionsimple.MainActivity">
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        android:id="@+id/IN_VEHICLE"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:text="in_vehicle :"
+        android:layout_below="@+id/ON_FOOT"
+        android:layout_alignStart="@+id/ON_FOOT" />
+
+    <TextView
+        android:id="@+id/ON_BICYCLE"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="72dp"
+        android:text="on_bicycle :"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/ON_FOOT"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="130dp"
+        android:text="on_foot :"
+        android:layout_below="@+id/ON_BICYCLE"
+        android:layout_alignStart="@+id/ON_BICYCLE" />
+
+    <TextView
+        android:id="@+id/RUNNING"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="184dp"
+        android:text="running :"
+        android:layout_below="@+id/IN_VEHICLE"
+        android:layout_alignStart="@+id/IN_VEHICLE" />
+
+    <TextView
+        android:id="@+id/STILL"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:text="still :"
+        android:layout_below="@+id/RUNNING"
+        android:layout_alignStart="@+id/RUNNING" />
+
+    <TextView
+        android:id="@+id/TILTING"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:text="tilting :"
+        android:layout_below="@+id/STILL"
+        android:layout_alignStart="@+id/STILL" />
+
+    <TextView
+        android:id="@+id/WALKING"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="364dp"
+        android:text="walking :"
+        android:layout_below="@+id/TILTING"
+        android:layout_alignStart="@+id/TILTING" />
+
+    <TextView
+        android:id="@+id/UNKNOWN"
+        android:layout_width="369dp"
+        android:layout_height="42dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="428dp"
+        android:text="unknown :"
+        android:layout_below="@+id/WALKING"
+        android:layout_alignStart="@+id/TILTING" />
+
+</RelativeLayout>

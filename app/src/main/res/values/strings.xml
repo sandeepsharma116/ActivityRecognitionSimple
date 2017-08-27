@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Activity Recognition Simple</string>
+    <string name="unknown">UNKNOWN</string>
+    <string name="walking">WALKING</string>
+    <string name="tilting">TILTING</string>
+    <string name="still">STILL</string>
+    <string name="running">RUNNING</string>
+    <string name="on_foot">ON_FOOT</string>
+    <string name="on_bicycle">ON_BICYCLE</string>
+    <string name="in_vehicle">IN_VEHICLE</string>
+
+</resources>
